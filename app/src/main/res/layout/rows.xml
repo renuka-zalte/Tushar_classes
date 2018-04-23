@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/lvh"
+        android:layout_width="fill_parent"
+        android:layout_height="30dp"
+        android:orientation="horizontal"
+        android:scrollbars="horizontal"
+        android:weightSum="4">
+
+        <TextView
+            android:id="@+id/txtplaceid"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.5"
+
+            android:gravity="center"
+            android:text="87966148811"
+            android:textColor="#000"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/txtplacename"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.9"
+
+            android:gravity="center"
+            android:text="Barcelona"
+            android:textColor="#000"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/txtcountry"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+
+            android:gravity="center"
+            android:text=""
+            android:textColor="#000"
+            android:textSize="20sp" />
+
+
+    </LinearLayout>
+
+</LinearLayout>
